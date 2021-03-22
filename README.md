@@ -7,5 +7,4 @@
 
 ![Dusty photo](res/schematic.png)
 ![Hookup Diagram](res/hookup-real.jpg)
-
 ![Web hit](res/ss-http.png)
