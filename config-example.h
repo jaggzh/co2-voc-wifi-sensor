@@ -1,8 +1,11 @@
-#define AP_SSID "Put router SSID here"
-#define AP_PW   "Put router password here" // plain text :(
+// Copy me to config.h and then edit
+
+#define AP_SSID "Your SSID Here"
+#define AP_PW   "Your bank password here" // plain text :(
+// Obviously don't put your ^^^ bank pw there
 
 // Can specify static IP if you want:
-//#define USE_IP_STATIC
+//#define USE_IP_STATIC // Uncomment to use static ip settings
 #ifdef USE_IP_STATIC
 	IPAddress local_ip(192, 168, 0, 100);
 	IPAddress gateway(192, 168, 0, 1);
@@ -12,7 +15,7 @@
 // http://co2-bathroom.local/
 // http://co2-bathroom.local/update
 // http://co2-bathroom.local/v             // last value
-#define MDNS_HOSTNAME "co2-bathroom"       // http://co2-.local/update
+#define MDNS_HOSTNAME "co2-bathroom"       // http://foo.local/update
 
 // You can change the OTA MDNS hostname separately here.
 // The http server will be at MDNS_HOSTNAME + ".local"
